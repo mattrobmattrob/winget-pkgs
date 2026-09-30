@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: NeoSCAD.NeoSCAD
+PackageVersion: "0.1.0"
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: neoscad.exe
+    PortableCommandAlias: neoscad
+Commands:
+  - neoscad
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/neoscad/neoscad/releases/download/v0.1.0/neoscad-cli-x86_64-pc-windows-msvc.zip
+    InstallerSha256: "f45cf323979d3bed5fd5ee44bd66f2a5675eed0d662cbd569a2c127187da2bdb"
+  - Architecture: arm64
+    InstallerUrl: https://github.com/neoscad/neoscad/releases/download/v0.1.0/neoscad-cli-aarch64-pc-windows-msvc.zip
+    InstallerSha256: "c4411f9966adc915d86e72dbb9952fbb6d9c6077f97650a9e25d59ba083049c9"
+ManifestType: installer
+ManifestVersion: 1.12.0
