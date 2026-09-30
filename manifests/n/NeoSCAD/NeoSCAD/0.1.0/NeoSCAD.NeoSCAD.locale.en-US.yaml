@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+PackageIdentifier: NeoSCAD.NeoSCAD
+PackageVersion: "0.1.0"
+PackageLocale: en-US
+Publisher: NeoSCAD
+PublisherUrl: https://neoscad.org
+PublisherSupportUrl: https://github.com/neoscad/neoscad/issues
+PackageName: NeoSCAD
+PackageUrl: https://neoscad.org
+License: GPL-2.0-or-later
+LicenseUrl: https://github.com/neoscad/neoscad/blob/main/LICENSE
+ShortDescription: OpenSCAD-compatible programmable solid CAD (command line, MCP and language servers)
+Description: |-
+  neoscad reads OpenSCAD's language and command-line flags and exports STL,
+  3MF, OFF, VRML, SVG, DXF, PDF and PNG. It also runs as a JSON-RPC server
+  (neoscad serve), a Model Context Protocol server for AI agents (neoscad mcp)
+  and a language server (neoscad lsp).
+Moniker: neoscad
+Tags:
+  - cad
+  - 3d-printing
+  - openscad
+  - mcp
+ReleaseNotesUrl: https://github.com/neoscad/neoscad/releases/tag/v0.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
